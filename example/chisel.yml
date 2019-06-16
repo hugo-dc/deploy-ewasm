@@ -1,0 +1,11 @@
+ewasm:
+  file: "store.wasm"
+  output: "store_deployer.wasm"
+  verifyimports:
+    preset: "ewasm"
+  verifyexports:
+    preset: "ewasm"
+  repack:
+    preset: "ewasm"
+  deployer:
+    preset: "memory"
